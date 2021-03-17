@@ -1,11 +1,15 @@
-import './App.css';
+import React from 'react';
+import General from './components/General';
+import Educational from './components/Educational';
+import Practical from './components/Practical';
+import './styles/App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Hello!</p>
-      </header>
+      <General />
+      <Educational />
+      <Practical />
     </div>
   );
 }

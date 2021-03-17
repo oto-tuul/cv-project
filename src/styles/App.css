@@ -1,0 +1,30 @@
+.App {
+  box-sizing: border-box;
+  background-color: lightgray;
+}
+
+.General {
+  width: min-content;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  color: blue;
+  border: 1px solid black;
+}
+
+button {
+  max-width: 100px;
+}
+
+.Educational {
+  margin-bottom: 5px;
+  color: green;
+  border: 1px solid black;
+}
+
+.Practical {
+  margin-bottom: 5px;
+  color: purple;
+  border: 1px solid black;
+}
